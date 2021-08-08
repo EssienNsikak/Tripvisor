@@ -48,7 +48,7 @@ const App = () => {
           setIsLoading(false);
         });
     }
-  }, [bounds, type, coords.lat, coords.lng]);
+  }, [bounds, type]);
 
   const onLoad = (autoC) => setAutocomplete(autoC);
 
